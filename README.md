@@ -49,7 +49,7 @@ Copy code
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Backend:** FastAPI (Python)
 - **LLM:** OpenAI (configurable)
@@ -58,7 +58,7 @@ Copy code
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### `POST /demo/run`
 Run the **entire pipeline** in one request.
@@ -72,21 +72,21 @@ Example:
   "tone": "friendly",
   "send": false
 }
-🛡️ Safety & Hallucination Controls
+Safety & Hallucination Controls
 LLM is forbidden from inventing achievements or projects
 
 Output is grounded only in provided data
 
 Validation warnings are surfaced when assumptions are detected
 
-⚠️ Limitations
+Limitations
 No bulk emailing
 
 Rate limiting is minimal
 
 Designed for ethical professional networking
 
-🧪 Running Locally
+Running Locally
 bash
 Copy code
 pip install -r requirements.txt
@@ -98,18 +98,3 @@ http://localhost:8000/docs
 
 yaml
 Copy code
-
-⬆️ **END OF WHAT YOU PASTE** ⬆️
-
----
-
-## 4️⃣ Save the file
-
----
-
-## 5️⃣ Commit it (this is another counted commit)
-
-```bash
-git add README.md
-git commit -m "docs: expand README with architecture and API overview"
-git push origin main
