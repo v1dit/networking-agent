@@ -1,6 +1,6 @@
 # Networking Agent — End-to-End AI Outreach Automation
 
-An AI-powered networking agent that automates **personalized professional outreach** end-to-end.
+An AI-powered networking agent that automates personalized professional outreach end-to-end.
 
 Given a LinkedIn profile URL and a resume, the system:
 1. Scrapes and structures the LinkedIn profile
